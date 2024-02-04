@@ -132,6 +132,11 @@ img {
     margin: 5px;
 }
 
+.social-networks i:hover {
+    background-color: #4c7bf3;
+    color: #fff;
+}
+
 .copy {
     width: 169px;
     height: 12px;
