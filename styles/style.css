@@ -179,6 +179,16 @@ img {
         margin: 0 16px 0 0;
     }
 
+    .email-field{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email-error{
+        padding: 5px 0 0 32px;
+        color: #ff5466;
+    }
+
     button {
         width: 183px;
         height: 50px;

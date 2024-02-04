@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    
     <title>PING</title>
 </head>
 
@@ -18,7 +19,10 @@
         <h2>We are launching <span>soon!</span></h2>
         <p class="subs">Subscribe and get notified</p>
         <div class="input-section">
-            <input type="email" id="email" name="email" placeholder="Your email address…">
+            <div class="email-field">
+                <input type="email" id="email-section" spellcheck="false" name="email" placeholder="Your email address…" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>
             <button>Notify Me</button>
         </div>
         <img src="./images/illustration-dashboard.png" alt="slack-dashboard">
@@ -29,6 +33,7 @@
         </div>
         <p class="copy">© Copyright Ping. All rights reserved.</p>
     </div>
+<script src="./script.js"></script>
 </body>
 
 </html>
