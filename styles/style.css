@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Libre Franklin', sans-serif;
+    width: 3750px;
+    margin: auto;
 }
 
 .main-content {
@@ -152,6 +154,10 @@ img {
 }
 
 @media screen and (min-width:375px) {
+    body{
+        width: 1440px;
+        margin: auto;
+    }
     h1 {
         font-size: 32px;
     }
